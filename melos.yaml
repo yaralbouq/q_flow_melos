@@ -1,0 +1,5 @@
+name: q_flow
+
+packages:
+  - apps/**
+  - packages/**
