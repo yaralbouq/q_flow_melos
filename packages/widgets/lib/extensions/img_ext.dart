@@ -2,7 +2,10 @@ import 'package:flutter/cupertino.dart';
 
 extension Img on ImageProvider {
   // Logo
-  static const logo = AssetImage('assets/logo/logo.png');
+  static const logo = AssetImage(
+    "assets/logo/logo.png",
+  );
+  //static const logo = AssetImage('assets/logo/logo.png');
   static const logoPurple = AssetImage('assets/logo/logo_purple.jpg');
   static const logoTurquoise = AssetImage('assets/logo/logo_turquoise.jpg');
   // OnBoarding
